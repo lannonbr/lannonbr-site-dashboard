@@ -16,6 +16,14 @@ const data = [
     url: `https://vscode-issue-tracker.netlify.com`,
   },
   {
+    name: `Clarkson Mirror`,
+    url: `https://mirror.clarkson.edu`,
+  },
+  {
+    name: `Syracuse.io`,
+    url: `https://syracuse.io`,
+  },
+  {
     name: `Lannonbr Site Dashboard (This site)`,
     url: `https://lannonbr-site-dashboard.netlify.com`,
   },
@@ -68,7 +76,7 @@ export default () => {
   return (
     <React.Fragment>
       <h1>Lannonbr Site Dashboard</h1>
-      <p class="larger">A list of my websites</p>
+      <p class="larger">A list of my websites / websites I've helped develop</p>
       <SmallCard>{data.length} Sites</SmallCard>
       <section style={{ width: "100%" }}>
         <SiteList>
